@@ -1,7 +1,4 @@
-// Cole aqui os dados do SEU projeto Firebase (Configurações do projeto > Seus apps > Web).
-// Enquanto apiKey estiver vazio, o app funciona em MODO LOCAL (sem sincronizar).
 export const firebaseConfig = {
-  apiKey: "export const firebaseConfig = {
   apiKey: "AIzaSyB4ra5Sj-KLuqDFi4-WZukeCtcaKHRMDgE",
   authDomain: "todoist-84557.firebaseapp.com",
   databaseURL: "https://todoist-84557-default-rtdb.firebaseio.com",
@@ -10,10 +7,4 @@ export const firebaseConfig = {
   messagingSenderId: "991560630960",
   appId: "1:991560630960:web:1adc7052227e802e5bf175",
   measurementId: "G-B5RXX4MPSE"
-};",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
 };
