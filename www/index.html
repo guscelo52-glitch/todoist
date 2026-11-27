@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#134e4a">
+<title>Pauta</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="auth" hidden>
+  <form id="authform" class="card">
+    <h1>Pauta</h1><p>Entre com a mesma conta no celular e no PC.</p>
+    <input name="email" type="email" placeholder="E-mail" required autocomplete="email">
+    <input name="password" type="password" placeholder="Senha (mín. 6 caracteres)" autocomplete="current-password">
+    <button class="primary" value="login">Entrar</button>
+    <button value="register">Criar conta</button>
+    <button value="reset" class="ghost">Esqueci a senha</button>
+    <p id="autherr" role="alert"></p>
+  </form>
+</div>
+<div id="app" hidden>
+  <nav id="side"></nav><div id="shade"></div>
+  <main id="main"></main>
+  <button id="fab" data-act="add" aria-label="Nova tarefa">＋</button>
+</div>
+<dialog id="dlg"></dialog>
+<div id="toast" role="status"></div>
+<script src="bundle.js"></script>
+</body>
+</html>
